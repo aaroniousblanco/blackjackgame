@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+#table {
+  border: 2px solid brown;
+  margin: 10%;
+  background-color: #1E6023;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.hand {
+  background-color: #33A740;
+  height: 100px;
+  padding: 1%;
+}
+
+.buttons {
+  width: 50%;
+  margin: 2% 25%;
+}
+
+.buttons > button {
+  width: 30%;
+  height: 50px;
+  margin: 0;
+}
+
+img {
+  max-height: 100%;
+}
