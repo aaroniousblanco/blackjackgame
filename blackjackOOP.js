@@ -16,7 +16,7 @@ Card.prototype.getImageUrl = function () {
     name = this.point === 1 ? "ace" : this.point;
   }
   suit = this.suit;
-  return name + "_of_" + this.suit + ".png";
+  return "images/" + name + "_of_" + this.suit + ".png";
 };
 
 function Hand() { //hand constructor
